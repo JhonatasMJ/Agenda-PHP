@@ -14,23 +14,23 @@
         <div class="login">
           <h2 data-aos="fade-right"  data-aos-duration="1500">Registre-se </h2>
           <p>Faça login para começar a construir seus projetos ainda hoje.</p>
-          <form action="">
+          <form action="crud/salvarPaciente.php" method="post">
             <div>
                 <label for="nome">Nome:</label>
   
-                <input type="text" placeholder="Digite seu Nome" required />
+                <input type="text" name="txtnome" placeholder="Digite seu Nome" required  id="nome"/>
               </div>
             <div>
               <label for="login">Login:</label>
 
-              <input type="text" placeholder="Digite seu login" required />
+              <input type="text" name="txtlogin" placeholder="Digite seu login" required  id="login"/>
             </div>
             <div>
               <label for="password">Senha:</label>
-              <input type="password" placeholder="Digite sua senha" required />
+              <input type="password" name="txtsenha" placeholder="Digite sua senha" required  id="senha"/>
             </div>
 
-            <a href="agenda.html">ENTRAR</a>
+           <button class="bnt" type="submit">Enviar</button>
           </form>
           <div class="register">
             <p>Já tem uma conta? <a href="login.html">Faça login</a></p>

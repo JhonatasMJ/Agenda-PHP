@@ -79,7 +79,7 @@ form input::placeholder {
     color: #94A3B8;
 }
 
-form a { 
+.btn { 
     display: block;
     text-align: center;
     width: 100%;
@@ -96,8 +96,7 @@ form a {
     transition: .3s ease;
 
 }
-
-form a:hover { 
+.btn:hover { 
     background-color: #489FB5;
 }
 
